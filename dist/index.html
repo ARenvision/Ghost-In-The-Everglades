@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1517">
+<title>Ghost in the Everglades</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="mast">
+  <button class="wordmark" id="home" aria-label="Ghost in the Everglades main menu"><span aria-hidden="true">✦</span> <strong>Ghost in the Everglades</strong></button>
+  <button id="sound" class="secondary" aria-pressed="true">Sound on</button>
+</header>
+<main>
+  <section id="menu" aria-label="Mission selection">
+    <div class="hero">
+      <div class="hero-copy">
+        <h1>Ghost <span>in the Everglades</span></h1>
+        <p class="tagline">Follow the right call home.</p>
+        <p class="intro">Pilot a rescue airboat into a flooded marsh. Sweep the banks for survivors and learn which signals belong to the living.</p>
+        <div class="mission-brief"><span id="brief-number" class="kicker"></span><h2 id="brief-title"></h2><p id="brief-copy"></p></div>
+        <div class="launch-actions">
+          <button class="primary" id="launch">Launch rescue <span aria-hidden="true">↗</span></button>
+          <button class="secondary" id="new-run-menu" hidden>New Run</button>
+          <button class="secondary" id="training">How to Play</button>
+        </div>
+      </div>
+      <div class="hero-art"><div class="moon"></div><div class="mist"></div><img src="assets/lantern-keeper.png" alt="The Lantern Keeper, a hooded marsh apparition carrying a cracked lantern"></div>
+    </div>
+    <div id="missions" class="missions" role="group" aria-label="Choose a mission"></div>
+  </section>
+  <section id="game" aria-label="Rescue in progress" hidden>
+    <div class="game-head">
+      <div><p class="kicker" id="mission-label"></p><h1 id="mission-title"></h1><p id="route-setup" class="route-setup" hidden></p></div>
+      <div class="head-buttons"><button class="secondary" id="view" aria-pressed="false" title="Switch camera (V)">View: Overhead</button><button class="secondary" id="map" aria-pressed="false">Map</button><button class="secondary" id="pause">Pause</button></div>
+    </div>
+    <div class="play-layout">
+      <div class="viewport">
+        <canvas id="waterway" width="1120" height="680" aria-label="Overhead view of your airboat and surrounding waterways"></canvas>
+        <div class="map-label" id="map-label" hidden>Navigation chart · Amber bars mark closures</div>
+        <div id="caption" class="caption" aria-live="polite"></div>
+        <div class="touch" aria-label="Touch pilot controls">
+          <div class="touch-group"><button data-hold="left" aria-label="Steer left">◀</button><button data-hold="right" aria-label="Steer right">▶</button></div>
+          <div class="touch-group"><button id="beam" aria-label="Toggle searchlight" aria-pressed="true">Light</button><button data-hold="brake">Brake</button><button data-hold="throttle">Throttle</button></div>
+        </div>
+      </div>
+      <aside class="dispatch">
+        <div class="status-block"><p class="kicker">DISPATCH</p><p id="objective"></p></div>
+        <div class="metrics">
+          <div><span>Aboard</span><strong id="aboard"></strong></div>
+          <div><span>Safely home</span><strong id="saved"></strong></div>
+        </div>
+        <div class="race-times" id="race-times">
+          <div><span>Mission time</span><strong id="elapsed">0:00.0</strong></div>
+          <div><span>Time to beat</span><strong id="best-time">—</strong></div>
+        </div>
+        <p class="conditions" id="conditions"></p>
+        <p class="pilot-help"><b>W / ↑</b> Throttle · <b>A D / ← →</b> Steer · <b>Space / ↓</b> Brake · <b>L</b> Light · <b>V</b> View · <b>M</b> Map</p>
+        <p class="touch-help">Approach people slowly to board. Stop at the station to unload.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+<dialog id="dialog" aria-labelledby="dialog-title">
+  <p id="dialog-label" class="kicker"></p>
+  <h2 id="dialog-title"></h2>
+  <p id="dialog-copy"></p>
+  <div class="dialog-buttons"><button class="primary" id="dialog-primary"></button><button class="secondary" id="retry">Restart mission</button><button class="secondary" id="new-run" hidden>New Run</button><button class="secondary" id="menu-button">Main menu</button></div>
+</dialog>
+<script type="module" src="game.js"></script>
+</body>
+</html>
