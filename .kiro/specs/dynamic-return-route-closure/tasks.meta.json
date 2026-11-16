@@ -1,0 +1,764 @@
+{
+  "pbtResults": {
+    "5.5 Write property test for target selection (REQUIRED)": {
+      "status": "passed",
+      "lastRunTimestamp": 1794787488062
+    }
+  },
+  "executionHistory": {
+    "1.1 Add `package.json` and the `tests/` directory": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776135497
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776149762
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776386908
+      }
+    ],
+    "1.2 Record the baseline commit and capture regression snapshots before any gameplay change": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776137426
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776394053
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776998405
+      }
+    ],
+    "1.3 Write the regression suite (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138372
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777006835
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777317912
+      }
+    ],
+    "2.1 Create `dist/closure-config.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138459
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776150582
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776387683
+      }
+    ],
+    "2.2 Create `dist/closure-registry.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138532
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776394743
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776998809
+      }
+    ],
+    "3.1 Create `dist/closure.mjs` with the graph, drivability cache and Closure_Zone": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138612
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776395397
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776999853
+      }
+    ],
+    "3.2 Implement `attachBoat` and `routeCheck` in `dist/closure.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138711
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777007662
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777318430
+      }
+    ],
+    "3.3 Write route-check tests (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138793
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777322950
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794779740593
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783321474
+      }
+    ],
+    "3.7 Run the PENDING Node route check on the closable-in table (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138881
+      },
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777323782
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777646435
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794779736067
+      }
+    ],
+    "4. Checkpoint - Run the full Node suite": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776138975
+      },
+      {
+        "executionId": "e4a3692d-3f92-49e9-943b-87890da45322",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783908125
+      },
+      {
+        "executionId": "e4a3692d-3f92-49e9-943b-87890da45322",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794785960619
+      }
+    ],
+    "5.1 Implement the traversal tracker in `dist/closure.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139033
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783330085
+      },
+      {
+        "executionId": "0536408c-73f6-4416-8635-49fa8bdbc3b2",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786122875
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786635610
+      }
+    ],
+    "5.2 Write traversal tests (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139099
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786652730
+      },
+      {
+        "executionId": "04186fe0-7a0a-4725-a9e5-5b2b4244c87d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786950753
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787389676
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787900519
+      },
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788300856
+      }
+    ],
+    "5.4 Implement `selectTarget` in `dist/closure.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139159
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786652608
+      },
+      {
+        "executionId": "52084cbe-b035-4e54-b429-2b96a200f5f3",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786796551
+      },
+      {
+        "executionId": "04186fe0-7a0a-4725-a9e5-5b2b4244c87d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786958857
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787389130
+      }
+    ],
+    "5.5 Write property test for target selection (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139237
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787401255
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787898868
+      }
+    ],
+    "6.1 Implement `createClosure` and `stepClosure` in `dist/closure.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139291
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787400090
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787899105
+      }
+    ],
+    "6.2 Write zone and deferral tests (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139348
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787908198
+      },
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788301692
+      },
+      {
+        "executionId": "404d07b0-02b9-479d-a3be-9dcb573982a5",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788669102
+      }
+    ],
+    "7. Checkpoint - Run the full Node suite": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139425
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790150478
+      }
+    ],
+    "8.1 Update `dist/radio.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139503
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783330370
+      },
+      {
+        "executionId": "0536408c-73f6-4416-8635-49fa8bdbc3b2",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786123769
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786636094
+      }
+    ],
+    "8.2 Register the 19 lines in `dist/radio-lines.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139579
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783330795
+      },
+      {
+        "executionId": "0536408c-73f6-4416-8635-49fa8bdbc3b2",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786124607
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786636938
+      }
+    ],
+    "8.3 Write staleness tests (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139647
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786653494
+      },
+      {
+        "executionId": "04186fe0-7a0a-4725-a9e5-5b2b4244c87d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786951486
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787390803
+      }
+    ],
+    "8.5 Write registry, line and constants unit tests (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139725
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787402125
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787899679
+      }
+    ],
+    "9.1 Add `applyFinishTime(times, id, time)` to `dist/play-progress.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139790
+      },
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783331811
+      },
+      {
+        "executionId": "0536408c-73f6-4416-8635-49fa8bdbc3b2",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786125691
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786638160
+      }
+    ],
+    "9.2 Write property test for best-time saving (REQUIRED)": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139847
+      },
+      {
+        "executionId": "7eccdc57-2ee5-454b-a89c-a6ea4f8d079b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786654167
+      },
+      {
+        "executionId": "04186fe0-7a0a-4725-a9e5-5b2b4244c87d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794786952119
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787391839
+      }
+    ],
+    "10.1 Wire the closure event into `start()` and `update()`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139922
+      },
+      {
+        "executionId": "e1e96fff-3821-40d7-9b2f-1abee9339e70",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788865325
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789042517
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789451751
+      }
+    ],
+    "10.2 Update `transmit`, `announce`, `caption()` and `recordFinish`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776139991
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789461583
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789689693
+      }
+    ],
+    "11. Checkpoint - Run the full Node suite": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140058
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790151562
+      }
+    ],
+    "12.1 Add `drawClosureCue(c, cue)` to `dist/map.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140115
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787908664
+      },
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788299543
+      }
+    ],
+    "12.2 Add forming and deferred posts to `dist/operator.mjs`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140176
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787909531
+      },
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788302849
+      },
+      {
+        "executionId": "404d07b0-02b9-479d-a3be-9dcb573982a5",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788669336
+      }
+    ],
+    "12.3 Wire the cues and the HUD line in `game.js`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140232
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789697078
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789899360
+      }
+    ],
+    "13.1 Create `.kiro/hooks/route-check-suite.json`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140297
+      },
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787910392
+      },
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788299704
+      }
+    ],
+    "14.1 Write the manual checklist document at `docs/manual-checklist.md`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140421
+      },
+      {
+        "executionId": "e1e96fff-3821-40d7-9b2f-1abee9339e70",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788865534
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789043228
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789452554
+      }
+    ],
+    "15. Checkpoint - Run the full Node suite": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140482
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789909365
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790150335
+      }
+    ],
+    "16.1 Complete `docs/evidence.md`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140545
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790152463
+      },
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790333307
+      }
+    ],
+    "17.1 Play each of the three setups end to end and record results in `docs/manual-checklist.md`": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140609
+      },
+      {
+        "executionId": "009df481-93c6-4753-afc7-37aa7de0400b",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794840588435
+      },
+      {
+        "executionId": "032befa6-e8c6-4804-a1f7-0028a7451945",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794841124535
+      }
+    ],
+    "18. Final checkpoint - Run the full Node suite": [
+      {
+        "executionId": "3e9a3c4b-c8d8-4236-948c-7613caa36f82",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776140671
+      },
+      {
+        "executionId": "78d89475-d0ae-4fd7-8747-86fc73d6d5f5",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794851776857
+      },
+      {
+        "executionId": "78d89475-d0ae-4fd7-8747-86fc73d6d5f5",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794851832865
+      }
+    ],
+    "2. Closure configuration and registry": [
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794776998861
+      }
+    ],
+    "1. Baseline, tooling and regression snapshots": [
+      {
+        "executionId": "27e1f059-5705-47c5-a060-0d83417f5950",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794777318012
+      }
+    ],
+    "3. Drivability, attachment and route check": [
+      {
+        "executionId": "84130386-657e-4ab7-9f59-fc01963fb4b7",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794783321774
+      }
+    ],
+    "9. Best-time logic": [
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787391906
+      }
+    ],
+    "5. Traversal tracking and target selection": [
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787898985
+      }
+    ],
+    "8. Radio staleness guard and line registration": [
+      {
+        "executionId": "e5f444e7-3c45-4190-95c7-efcaa045366a",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794787899731
+      }
+    ],
+    "13. Kiro hook": [
+      {
+        "executionId": "8d33d30e-a9b0-4380-aaff-e4d3b802de1d",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788299755
+      }
+    ],
+    "6. Closure state machine": [
+      {
+        "executionId": "404d07b0-02b9-479d-a3be-9dcb573982a5",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794788669211
+      }
+    ],
+    "14. Manual checklist": [
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789452627
+      }
+    ],
+    "10. Integrate the closure into `game.js`": [
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789689780
+      }
+    ],
+    "12. Chart, operator and HUD cues": [
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794789899450
+      }
+    ],
+    "16. Evidence notes": [
+      {
+        "executionId": "38a7c44d-6b67-43dc-a517-b9dcf1d1a878",
+        "chatSessionId": "sess_fe554dd4-b421-4dcf-a30a-817f9a2a0399",
+        "timestamp": 1794790333419
+      }
+    ]
+  }
+}
