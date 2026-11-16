@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Route Check Suite",
+  "description": "Reruns the return-route closure checks (npm test) whenever a gameplay or closure module is saved.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "dist/game.js",
+      "dist/missions.mjs",
+      "dist/play-progress.mjs",
+      "dist/radio-lines.mjs",
+      "dist/radio.mjs",
+      "dist/closure*.mjs"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm test"
+  }
+}
